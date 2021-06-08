@@ -1,0 +1,8 @@
+[flake8]
+exclude = __pycache__,vendor,node_modules,.venv,venv
+ignore = E501,W503
+max-line-length = 80
+select = C,E,F,G,W,B,B901,B902,B903,B950,P,S,D
+max-complexity = 10
+per-file-ignores =
+  tests/test_*.py: S101,D
